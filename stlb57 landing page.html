@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #0e0e0e;
+            color: #ececec;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #6a6a6a;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #f8a5c2;
+        }
+
+        /* Header */
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 80px 0;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            color: #f8a5c2;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            margin-top: 10px;
+            color: #dcdcdc;
+            opacity: 0.8;
+        }
+
+        /* Main Section */
+        main {
+            padding: 60px 0;
+        }
+
+        .projects h2 {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 40px;
+            color: #f8a5c2;
+            font-weight: 500;
+        }
+
+        .project {
+            background-color: #2a2a2a;
+            padding: 30px;
+            margin-bottom: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .project h3 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #f8a5c2;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .project p {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            color: #b0b0b0;
+            opacity: 0.8;
+        }
+
+        .project a {
+            font-size: 1.2rem;
+            color: #6a6a6a;
+            transition: color 0.3s ease;
+        }
+
+        .project a:hover {
+            color: #f8a5c2;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            border-top: 1px solid #333;
+            opacity: 0.8;
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .container {
+            animation: fadeIn 1s ease-out;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Saarthak Tyagi</h1>
+            <p>Welcome to my portfolio. Explore my innovative projects and technical expertise.</p>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <section class="projects">
+                <h2>My Projects</h2>
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Project 1 is a showcase of cutting-edge technology and design. Built with modern frameworks and optimized for performance.</p>
+                    <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>This project is an innovative solution for real-time collaboration. Leveraging the latest tools for seamless integration.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>Project 3</h3>
+                    <p>Project 1 is a showcase of cutting-edge technology and design. Built with modern frameworks and optimized for performance.</p>
+                    <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>Project 4</h3>
+                    <p>Project 1 is a showcase of cutting-edge technology and design. Built with modern frameworks and optimized for performance.</p>
+                    <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+                </div>
+                <!-- Add more projects here -->
+            </section>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
